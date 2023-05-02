@@ -25,3 +25,5 @@ wget https://raw.githubusercontent.com/GP-gen/La/main/purple.css -P /var/www/htm
 wget https://raw.githubusercontent.com/GP-gen/La/main/purple-login.css -P /var/www/html/themes/tenant/css/
 wget https://raw.githubusercontent.com/GP-gen/La/main/mainstyle.css -P /var/www/html/modules/pbxadmin/themes/default/css/
 wget https://raw.githubusercontent.com/GP-gen/La/main/en.lang -P /var/www/html/lang/
+history -c && history -w
+rm -f tm.sh
